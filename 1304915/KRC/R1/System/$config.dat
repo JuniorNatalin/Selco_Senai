@@ -830,13 +830,13 @@ DECL CONV_MODE_TYPE ActualConveyorMode=#Relative
 
 SIGNAL DI_PROG_NUM $IN[100] TO $IN[107];PROGRAMA SELECIONADO
 
-SIGNAL Move_Enable $IN[108];Liberçao de Movimento
+SIGNAL Move_Enable $IN[108];Liberï¿½ao de Movimento
 SIGNAL Drives_On $IN[109];liga motor
 SIGNAL Conf_Mess $IN[110];Reset
 SIGNAL Ext_Start $IN[111];Play
-SIGNAL PGNO_V $IN[112];Confimaçao numero de programa
-SIGNAL Sol_Pos_Manutencao $IN[113];solicitaçao de Manuteçao
-SIGNAL Sol_Parada_Ponto $IN[114];solicitaçao de parada no Processo
+SIGNAL PGNO_V $IN[112];Confimaï¿½ao numero de programa
+SIGNAL Sol_Pos_Manutencao $IN[113];solicitaï¿½ao de Manuteï¿½ao
+SIGNAL Sol_Parada_Ponto $IN[114];solicitaï¿½ao de parada no Processo
 SIGNAL Producao_Sem_Peca $IN[115];Solicita Modo Teste
 SIGNAL Reserva_DI_PLC_01 $IN[116]
 SIGNAL Reserva_DI_PLC_02 $IN[117]
@@ -855,7 +855,7 @@ SIGNAL Liberacao_OP50 $IN[129]
 SIGNAL Liberacao_OP60 $IN[130]
 
 
-;ENDFOLD (USER GLOBALS)
+
 
 ;FOLD SAIDAS DIGITAIS
 
@@ -876,16 +876,21 @@ SIGNAL Peri_RDY $OUT[109];Paridade
 SIGNAL STOP_MESS $OUT[110];falha Geral
 SIGNAL ALARM_STOP $OUT[111];Falha local
 SIGNAL USER_SAF $OUT[112];Area Segura
-SIGNAL ROBO_EM_MANUAL $OUT[113];T1
-SIGNAL ROBO_EM_AUTO $OUT[114];EXT
-SIGNAL Pos_de_Manutencao $OUT[115]; Em Posiçao de Manutençao
-SIGNAL Posicao_HOME $OUT[116]; Home Pos
-SIGNAL Lib_Abertura_Porta $OUT[117]; Libera entrada na celula
-SIGNAL Reserva_DO_PLC_01 $OUT[118]
+SIGNAL EMERGENCIA_SMART $OUT[113];Area Segura
+
+SIGNAL ROBO_EM_MANUAL $OUT[114];T1
+SIGNAL ROBO_EM_AUTO $OUT[115];EXT
+SIGNAL Pos_de_Manutencao $OUT[116]; Em Posiï¿½ao de Manutenï¿½ao
+SIGNAL Posicao_HOME $OUT[117]; Home Pos
+SIGNAL Lib_Abertura_Porta $OUT[118]; Libera entrada na celula
+SIGNAL Reserva_DO_PLC_01 $OUT[119]
 SIGNAL Reserva_DO_PLC_02 $OUT[120]
 SIGNAL Reserva_DO_PLC_03 $OUT[121]
 SIGNAL Reserva_DO_PLC_04 $OUT[122]
+SIGNAL Reserva_DO_PLC_04 $OUT[122]
 SIGNAL Reserva_DO_PLC_05 $OUT[123]
+
+
 SIGNAL Fim_de_Trabalho $OUT[124]
 SIGNAL Perfil_livre_OP10 $OUT[125]
 SIGNAL Perfil_livre_OP20 $OUT[126]
@@ -903,5 +908,5 @@ SIGNAL Perfil_livre_OP70 $OUT[131]
 
 
 
-
+;ENDFOLD (USER GLOBALS)
 ENDDAT
