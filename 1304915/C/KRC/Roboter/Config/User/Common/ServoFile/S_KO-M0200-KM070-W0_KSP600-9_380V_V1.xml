@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServoFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/Roboter/Config/System/Common/Schemes/Servofile.xsd">
+  <Version Label="">
+    <Info Version="Any" />
+    <Schema Version="1" />
+    <!--###############################################################-->
+    <!--########                                               ########-->
+    <!--########                     KR C5                     ########-->
+    <!--########                  Servo-File                   ########-->
+    <!--########             KUKA DEUTSCHLAND GMBH             ########-->
+    <!--########                                               ########-->
+    <!--###############################################################-->
+    <!--ATB 2.8.0, DB V8.329, ID 1000054-->
+    <!--Datum: 26-Feb-2021 15:40:19-->
+    <!--Motor:     KO-M0200-KM070-W0-->
+    <!--Umrichter: KSP600-9-->
+    <!--xmlFileID_KO-M0200-KM070-W0_KSP600-9_20210226154019_936-->
+  </Version>
+  <Parameter Index="11776" Relative="false" SubIndex="9" Type="UINT8" Value="1" />
+  <Parameter Index="3" Relative="true" SubIndex="1" Type="UINT16" Value="0" />
+  <Parameter Index="6" Relative="true" SubIndex="3" Type="FLOAT32" Value="9" />
+  <Parameter Index="8" Relative="true" SubIndex="1" Type="FLOAT32" Value="6.4" />
+  <Parameter Index="8" Relative="true" SubIndex="3" Type="FLOAT32" Value="0.0021759" />
+  <Parameter Index="8" Relative="true" SubIndex="4" Type="FLOAT32" Value="0.85" />
+  <Parameter Index="8" Relative="true" SubIndex="7" Type="FLOAT32" Value="0.9" />
+  <Parameter Index="8" Relative="true" SubIndex="8" Type="FLOAT32" Value="0.0043519" />
+  <Parameter Index="8" Relative="true" SubIndex="9" Type="FLOAT32" Value="0.0021759" />
+  <Parameter Index="8" Relative="true" SubIndex="11" Type="FLOAT32" Value="20" />
+  <Parameter Index="9" Relative="true" SubIndex="1" Type="FLOAT32" Value="15.4268" />
+  <Parameter Index="9" Relative="true" SubIndex="2" Type="FLOAT32" Value="1.22" />
+  <Parameter Index="9" Relative="true" SubIndex="3" Type="FLOAT32" Value="15.4268" />
+  <Parameter Index="9" Relative="true" SubIndex="4" Type="FLOAT32" Value="1.22" />
+  <Parameter Index="9" Relative="true" SubIndex="5" Type="FLOAT32" Value="0.0078115" />
+  <Parameter Index="9" Relative="true" SubIndex="7" Type="FLOAT32" Value="0.060833" />
+  <Parameter Index="9" Relative="true" SubIndex="12" Type="FLOAT32" Value="-7.6042" />
+  <Parameter Index="9" Relative="true" SubIndex="13" Type="UINT8" Value="0" />
+  <Parameter Index="9" Relative="true" SubIndex="14" Type="FLOAT32" Value="24" />
+  <Parameter Index="11" Relative="true" SubIndex="1" Type="FLOAT32" Value="1.0336" />
+  <Parameter Index="11" Relative="true" SubIndex="2" Type="FLOAT32" Value="1.0332" />
+  <Parameter Index="11" Relative="true" SubIndex="3" Type="FLOAT32" Value="1.0319" />
+  <Parameter Index="11" Relative="true" SubIndex="4" Type="FLOAT32" Value="1.0298" />
+  <Parameter Index="11" Relative="true" SubIndex="5" Type="FLOAT32" Value="1.0268" />
+  <Parameter Index="11" Relative="true" SubIndex="6" Type="FLOAT32" Value="1.0227" />
+  <Parameter Index="11" Relative="true" SubIndex="7" Type="FLOAT32" Value="1.0176" />
+  <Parameter Index="11" Relative="true" SubIndex="8" Type="FLOAT32" Value="1.0114" />
+  <Parameter Index="11" Relative="true" SubIndex="9" Type="FLOAT32" Value="1.004" />
+  <Parameter Index="11" Relative="true" SubIndex="10" Type="FLOAT32" Value="0.99542" />
+  <Parameter Index="11" Relative="true" SubIndex="11" Type="FLOAT32" Value="0.9856" />
+  <Parameter Index="11" Relative="true" SubIndex="12" Type="FLOAT32" Value="0.97458" />
+  <Parameter Index="11" Relative="true" SubIndex="13" Type="FLOAT32" Value="0.9624" />
+  <Parameter Index="11" Relative="true" SubIndex="14" Type="FLOAT32" Value="0.94916" />
+  <Parameter Index="11" Relative="true" SubIndex="15" Type="FLOAT32" Value="0.93494" />
+  <Parameter Index="11" Relative="true" SubIndex="16" Type="FLOAT32" Value="0.91987" />
+  <Parameter Index="11" Relative="true" SubIndex="17" Type="FLOAT32" Value="0.90409" />
+  <Parameter Index="11" Relative="true" SubIndex="18" Type="FLOAT32" Value="0.88775" />
+  <Parameter Index="11" Relative="true" SubIndex="19" Type="FLOAT32" Value="0.871" />
+  <Parameter Index="11" Relative="true" SubIndex="20" Type="FLOAT32" Value="0.85399" />
+  <Parameter Index="11" Relative="true" SubIndex="21" Type="FLOAT32" Value="0.83686" />
+  <Parameter Index="11" Relative="true" SubIndex="22" Type="FLOAT32" Value="0.81974" />
+  <Parameter Index="11" Relative="true" SubIndex="23" Type="FLOAT32" Value="0.80274" />
+  <Parameter Index="11" Relative="true" SubIndex="24" Type="FLOAT32" Value="0.78596" />
+  <Parameter Index="11" Relative="true" SubIndex="25" Type="FLOAT32" Value="0.76948" />
+  <Parameter Index="11" Relative="true" SubIndex="26" Type="FLOAT32" Value="0.75336" />
+  <Parameter Index="11" Relative="true" SubIndex="27" Type="FLOAT32" Value="0.73766" />
+  <Parameter Index="11" Relative="true" SubIndex="28" Type="FLOAT32" Value="0.73766" />
+  <Parameter Index="11" Relative="true" SubIndex="29" Type="FLOAT32" Value="0.73766" />
+  <Parameter Index="11" Relative="true" SubIndex="30" Type="FLOAT32" Value="0.73766" />
+  <Parameter Index="11" Relative="true" SubIndex="31" Type="FLOAT32" Value="0.73766" />
+  <Parameter Index="11" Relative="true" SubIndex="32" Type="FLOAT32" Value="0.73766" />
+  <Parameter Index="11" Relative="true" SubIndex="33" Type="FLOAT32" Value="0.73766" />
+  <Parameter Index="67" Relative="true" SubIndex="1" Type="FLOAT32" Value="0.06" />
+  <Parameter Index="67" Relative="true" SubIndex="2" Type="FLOAT32" Value="0.15942" />
+  <Parameter Index="67" Relative="true" SubIndex="3" Type="FLOAT32" Value="0.06" />
+  <Parameter Index="67" Relative="true" SubIndex="4" Type="FLOAT32" Value="0.4048" />
+  <Parameter Index="68" Relative="true" SubIndex="2" Type="FLOAT32" Value="20.5" />
+  <Parameter Index="68" Relative="true" SubIndex="3" Type="FLOAT32" Value="1" />
+</ServoFile>
+<!--checksum 3434-->

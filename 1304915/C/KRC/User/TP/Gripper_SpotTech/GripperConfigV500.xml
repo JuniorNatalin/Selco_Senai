@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Gripper Number="1" NumIn="2" NumOut="2" NumStates="2" GrpAct="false" Name="Gripper1" GripperIcon="Def_Gripper_01" PulseTimeInS="0.5" TimeOutInMs="3000">
+    <States>
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_1" LoadVarNr="0" Name="OPEN" Description="Open" />
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_2" LoadVarNr="0" Name="CLOSE" Description="Close" />
+    </States>
+    <Inputs>
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Inputs>
+    <Outputs>
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Outputs>
+    <LoadVars LoadVarAct="false" ToolDataNr="0" LoadVarNum="2" Ghost="0">
+      <LoadVar LoadbyGhost="false" Name="LoadVar 1" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+      <LoadVar LoadbyGhost="false" Name="LoadVar 2" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+    </LoadVars>
+  </Gripper>
+  <Gripper Number="2" NumIn="2" NumOut="2" NumStates="2" GrpAct="false" Name="Gripper2" GripperIcon="Def_Gripper_02" PulseTimeInS="0.5" TimeOutInMs="3000">
+    <States>
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_1" LoadVarNr="0" Name="OPEN" Description="Open" />
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_2" LoadVarNr="0" Name="CLOSE" Description="Close" />
+    </States>
+    <Inputs>
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Inputs>
+    <Outputs>
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Outputs>
+    <LoadVars LoadVarAct="false" ToolDataNr="0" LoadVarNum="2" Ghost="0">
+      <LoadVar LoadbyGhost="false" Name="LoadVar 1" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+      <LoadVar LoadbyGhost="false" Name="LoadVar 2" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+    </LoadVars>
+  </Gripper>
+  <Gripper Number="3" NumIn="2" NumOut="2" NumStates="2" GrpAct="false" Name="Gripper3" GripperIcon="Def_Gripper_03" PulseTimeInS="0.5" TimeOutInMs="3000">
+    <States>
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_1" LoadVarNr="0" Name="OPEN" Description="Open" />
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_2" LoadVarNr="0" Name="CLOSE" Description="Close" />
+    </States>
+    <Inputs>
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Inputs>
+    <Outputs>
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Outputs>
+    <LoadVars LoadVarAct="false" ToolDataNr="0" LoadVarNum="2" Ghost="0">
+      <LoadVar LoadbyGhost="false" Name="LoadVar 1" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+      <LoadVar LoadbyGhost="false" Name="LoadVar 2" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+    </LoadVars>
+  </Gripper>
+  <Gripper Number="4" NumIn="2" NumOut="2" NumStates="2" GrpAct="false" Name="Gripper4" GripperIcon="Def_Gripper_04" PulseTimeInS="0.5" TimeOutInMs="3000">
+    <States>
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_1" LoadVarNr="0" Name="OPEN" Description="Open" />
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_2" LoadVarNr="0" Name="CLOSE" Description="Close" />
+    </States>
+    <Inputs>
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Inputs>
+    <Outputs>
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Outputs>
+    <LoadVars LoadVarAct="false" ToolDataNr="0" LoadVarNum="2" Ghost="0">
+      <LoadVar LoadbyGhost="false" Name="LoadVar 1" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+      <LoadVar LoadbyGhost="false" Name="LoadVar 2" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+    </LoadVars>
+  </Gripper>
+  <Gripper Number="5" NumIn="2" NumOut="2" NumStates="2" GrpAct="false" Name="Gripper5" GripperIcon="Def_Gripper_05" PulseTimeInS="0.5" TimeOutInMs="3000">
+    <States>
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_1" LoadVarNr="0" Name="OPEN" Description="Open" />
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_2" LoadVarNr="0" Name="CLOSE" Description="Close" />
+    </States>
+    <Inputs>
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Inputs>
+    <Outputs>
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Outputs>
+    <LoadVars LoadVarAct="false" ToolDataNr="0" LoadVarNum="2" Ghost="0">
+      <LoadVar LoadbyGhost="false" Name="LoadVar 1" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+      <LoadVar LoadbyGhost="false" Name="LoadVar 2" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+    </LoadVars>
+  </Gripper>
+  <Gripper Number="6" NumIn="2" NumOut="2" NumStates="2" GrpAct="false" Name="Gripper6" GripperIcon="Def_Gripper_06" PulseTimeInS="0.5" TimeOutInMs="3000">
+    <States>
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_1" LoadVarNr="0" Name="OPEN" Description="Open" />
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_2" LoadVarNr="0" Name="CLOSE" Description="Close" />
+    </States>
+    <Inputs>
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Inputs>
+    <Outputs>
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Outputs>
+    <LoadVars LoadVarAct="false" ToolDataNr="0" LoadVarNum="2" Ghost="0">
+      <LoadVar LoadbyGhost="false" Name="LoadVar 1" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+      <LoadVar LoadbyGhost="false" Name="LoadVar 2" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+    </LoadVars>
+  </Gripper>
+  <Gripper Number="7" NumIn="2" NumOut="2" NumStates="2" GrpAct="false" Name="Gripper7" GripperIcon="Def_Gripper_07" PulseTimeInS="0.5" TimeOutInMs="3000">
+    <States>
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_1" LoadVarNr="0" Name="OPEN" Description="Open" />
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_2" LoadVarNr="0" Name="CLOSE" Description="Close" />
+    </States>
+    <Inputs>
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Inputs>
+    <Outputs>
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Outputs>
+    <LoadVars LoadVarAct="false" ToolDataNr="0" LoadVarNum="2" Ghost="0">
+      <LoadVar LoadbyGhost="false" Name="LoadVar 1" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+      <LoadVar LoadbyGhost="false" Name="LoadVar 2" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+    </LoadVars>
+  </Gripper>
+  <Gripper Number="8" NumIn="2" NumOut="2" NumStates="2" GrpAct="false" Name="Gripper8" GripperIcon="Def_Gripper_08" PulseTimeInS="0.5" TimeOutInMs="3000">
+    <States>
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_1" LoadVarNr="0" Name="OPEN" Description="Open" />
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_2" LoadVarNr="0" Name="CLOSE" Description="Close" />
+    </States>
+    <Inputs>
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Inputs>
+    <Outputs>
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Outputs>
+    <LoadVars LoadVarAct="false" ToolDataNr="0" LoadVarNum="2" Ghost="0">
+      <LoadVar LoadbyGhost="false" Name="LoadVar 1" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+      <LoadVar LoadbyGhost="false" Name="LoadVar 2" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+    </LoadVars>
+  </Gripper>
+  <Gripper Number="9" NumIn="2" NumOut="2" NumStates="2" GrpAct="false" Name="Gripper9" GripperIcon="Def_Gripper_09" PulseTimeInS="0.5" TimeOutInMs="3000">
+    <States>
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_1" LoadVarNr="0" Name="OPEN" Description="Open" />
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_2" LoadVarNr="0" Name="CLOSE" Description="Close" />
+    </States>
+    <Inputs>
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Inputs>
+    <Outputs>
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Outputs>
+    <LoadVars LoadVarAct="false" ToolDataNr="0" LoadVarNum="2" Ghost="0">
+      <LoadVar LoadbyGhost="false" Name="LoadVar 1" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+      <LoadVar LoadbyGhost="false" Name="LoadVar 2" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+    </LoadVars>
+  </Gripper>
+  <Gripper Number="10" NumIn="2" NumOut="2" NumStates="2" GrpAct="false" Name="Gripper10" GripperIcon="Def_Gripper_10" PulseTimeInS="0.5" TimeOutInMs="3000">
+    <States>
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_1" LoadVarNr="0" Name="OPEN" Description="Open" />
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_2" LoadVarNr="0" Name="CLOSE" Description="Close" />
+    </States>
+    <Inputs>
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Inputs>
+    <Outputs>
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Outputs>
+    <LoadVars LoadVarAct="false" ToolDataNr="0" LoadVarNum="2" Ghost="0">
+      <LoadVar LoadbyGhost="false" Name="LoadVar 1" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+      <LoadVar LoadbyGhost="false" Name="LoadVar 2" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+    </LoadVars>
+  </Gripper>
+  <Gripper Number="11" NumIn="2" NumOut="2" NumStates="2" GrpAct="false" Name="Gripper11" GripperIcon="Def_Gripper_11" PulseTimeInS="0.5" TimeOutInMs="3000">
+    <States>
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_1" LoadVarNr="0" Name="OPEN" Description="Open" />
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_2" LoadVarNr="0" Name="CLOSE" Description="Close" />
+    </States>
+    <Inputs>
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Inputs>
+    <Outputs>
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Outputs>
+    <LoadVars LoadVarAct="false" ToolDataNr="0" LoadVarNum="2" Ghost="0">
+      <LoadVar LoadbyGhost="false" Name="LoadVar 1" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+      <LoadVar LoadbyGhost="false" Name="LoadVar 2" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+    </LoadVars>
+  </Gripper>
+  <Gripper Number="12" NumIn="2" NumOut="2" NumStates="2" GrpAct="false" Name="Gripper12" GripperIcon="Def_Gripper_12" PulseTimeInS="0.5" TimeOutInMs="3000">
+    <States>
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_1" LoadVarNr="0" Name="OPEN" Description="Open" />
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_2" LoadVarNr="0" Name="CLOSE" Description="Close" />
+    </States>
+    <Inputs>
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Inputs>
+    <Outputs>
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Outputs>
+    <LoadVars LoadVarAct="false" ToolDataNr="0" LoadVarNum="2" Ghost="0">
+      <LoadVar LoadbyGhost="false" Name="LoadVar 1" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+      <LoadVar LoadbyGhost="false" Name="LoadVar 2" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+    </LoadVars>
+  </Gripper>
+  <Gripper Number="13" NumIn="2" NumOut="2" NumStates="2" GrpAct="false" Name="Gripper13" GripperIcon="Def_Gripper_13" PulseTimeInS="0.5" TimeOutInMs="3000">
+    <States>
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_1" LoadVarNr="0" Name="OPEN" Description="Open" />
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_2" LoadVarNr="0" Name="CLOSE" Description="Close" />
+    </States>
+    <Inputs>
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Inputs>
+    <Outputs>
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Outputs>
+    <LoadVars LoadVarAct="false" ToolDataNr="0" LoadVarNum="2" Ghost="0">
+      <LoadVar LoadbyGhost="false" Name="LoadVar 1" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+      <LoadVar LoadbyGhost="false" Name="LoadVar 2" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+    </LoadVars>
+  </Gripper>
+  <Gripper Number="14" NumIn="2" NumOut="2" NumStates="2" GrpAct="false" Name="Gripper14" GripperIcon="Def_Gripper_14" PulseTimeInS="0.5" TimeOutInMs="3000">
+    <States>
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_1" LoadVarNr="0" Name="OPEN" Description="Open" />
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_2" LoadVarNr="0" Name="CLOSE" Description="Close" />
+    </States>
+    <Inputs>
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Inputs>
+    <Outputs>
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Outputs>
+    <LoadVars LoadVarAct="false" ToolDataNr="0" LoadVarNum="2" Ghost="0">
+      <LoadVar LoadbyGhost="false" Name="LoadVar 1" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+      <LoadVar LoadbyGhost="false" Name="LoadVar 2" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+    </LoadVars>
+  </Gripper>
+  <Gripper Number="15" NumIn="2" NumOut="2" NumStates="2" GrpAct="false" Name="Gripper15" GripperIcon="Def_Gripper_15" PulseTimeInS="0.5" TimeOutInMs="3000">
+    <States>
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_1" LoadVarNr="0" Name="OPEN" Description="Open" />
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_2" LoadVarNr="0" Name="CLOSE" Description="Close" />
+    </States>
+    <Inputs>
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Inputs>
+    <Outputs>
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Outputs>
+    <LoadVars LoadVarAct="false" ToolDataNr="0" LoadVarNum="2" Ghost="0">
+      <LoadVar LoadbyGhost="false" Name="LoadVar 1" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+      <LoadVar LoadbyGhost="false" Name="LoadVar 2" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+    </LoadVars>
+  </Gripper>
+  <Gripper Number="16" NumIn="2" NumOut="2" NumStates="2" GrpAct="false" Name="Gripper16" GripperIcon="Def_Gripper_16" PulseTimeInS="0.5" TimeOutInMs="3000">
+    <States>
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_1" LoadVarNr="0" Name="OPEN" Description="Open" />
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_2" LoadVarNr="0" Name="CLOSE" Description="Close" />
+    </States>
+    <Inputs>
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Inputs>
+    <Outputs>
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Outputs>
+    <LoadVars LoadVarAct="false" ToolDataNr="0" LoadVarNum="2" Ghost="0">
+      <LoadVar LoadbyGhost="false" Name="LoadVar 1" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+      <LoadVar LoadbyGhost="false" Name="LoadVar 2" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+    </LoadVars>
+  </Gripper>
+  <Gripper Number="17" NumIn="2" NumOut="2" NumStates="2" GrpAct="false" Name="Gripper17" GripperIcon="Def_Gripper_17" PulseTimeInS="0.5" TimeOutInMs="3000">
+    <States>
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_1" LoadVarNr="0" Name="OPEN" Description="Open" />
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_2" LoadVarNr="0" Name="CLOSE" Description="Close" />
+    </States>
+    <Inputs>
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Inputs>
+    <Outputs>
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Outputs>
+    <LoadVars LoadVarAct="false" ToolDataNr="0" LoadVarNum="2" Ghost="0">
+      <LoadVar LoadbyGhost="false" Name="LoadVar 1" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+      <LoadVar LoadbyGhost="false" Name="LoadVar 2" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+    </LoadVars>
+  </Gripper>
+  <Gripper Number="18" NumIn="2" NumOut="2" NumStates="2" GrpAct="false" Name="Gripper18" GripperIcon="Def_Gripper_18" PulseTimeInS="0.5" TimeOutInMs="3000">
+    <States>
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_1" LoadVarNr="0" Name="OPEN" Description="Open" />
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_2" LoadVarNr="0" Name="CLOSE" Description="Close" />
+    </States>
+    <Inputs>
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Inputs>
+    <Outputs>
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Outputs>
+    <LoadVars LoadVarAct="false" ToolDataNr="0" LoadVarNum="2" Ghost="0">
+      <LoadVar LoadbyGhost="false" Name="LoadVar 1" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+      <LoadVar LoadbyGhost="false" Name="LoadVar 2" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+    </LoadVars>
+  </Gripper>
+  <Gripper Number="19" NumIn="2" NumOut="2" NumStates="2" GrpAct="false" Name="Gripper19" GripperIcon="Def_Gripper_19" PulseTimeInS="0.5" TimeOutInMs="3000">
+    <States>
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_1" LoadVarNr="0" Name="OPEN" Description="Open" />
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_2" LoadVarNr="0" Name="CLOSE" Description="Close" />
+    </States>
+    <Inputs>
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Inputs>
+    <Outputs>
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Outputs>
+    <LoadVars LoadVarAct="false" ToolDataNr="0" LoadVarNum="2" Ghost="0">
+      <LoadVar LoadbyGhost="false" Name="LoadVar 1" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+      <LoadVar LoadbyGhost="false" Name="LoadVar 2" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+    </LoadVars>
+  </Gripper>
+  <Gripper Number="20" NumIn="2" NumOut="2" NumStates="2" GrpAct="false" Name="Gripper20" GripperIcon="Def_Gripper_20" PulseTimeInS="0.5" TimeOutInMs="3000">
+    <States>
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_1" LoadVarNr="0" Name="OPEN" Description="Open" />
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_2" LoadVarNr="0" Name="CLOSE" Description="Close" />
+    </States>
+    <Inputs>
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Inputs>
+    <Outputs>
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Outputs>
+    <LoadVars LoadVarAct="false" ToolDataNr="0" LoadVarNum="2" Ghost="0">
+      <LoadVar LoadbyGhost="false" Name="LoadVar 1" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+      <LoadVar LoadbyGhost="false" Name="LoadVar 2" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+    </LoadVars>
+  </Gripper>
+  <Gripper Number="21" NumIn="2" NumOut="2" NumStates="2" GrpAct="false" Name="Gripper21" GripperIcon="Def_Gripper_21" PulseTimeInS="0.5" TimeOutInMs="3000">
+    <States>
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_1" LoadVarNr="0" Name="OPEN" Description="Open" />
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_2" LoadVarNr="0" Name="CLOSE" Description="Close" />
+    </States>
+    <Inputs>
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Inputs>
+    <Outputs>
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Outputs>
+    <LoadVars LoadVarAct="false" ToolDataNr="0" LoadVarNum="2" Ghost="0">
+      <LoadVar LoadbyGhost="false" Name="LoadVar 1" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+      <LoadVar LoadbyGhost="false" Name="LoadVar 2" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+    </LoadVars>
+  </Gripper>
+  <Gripper Number="22" NumIn="2" NumOut="2" NumStates="2" GrpAct="false" Name="Gripper22" GripperIcon="Def_Gripper_22" PulseTimeInS="0.5" TimeOutInMs="3000">
+    <States>
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_1" LoadVarNr="0" Name="OPEN" Description="Open" />
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_2" LoadVarNr="0" Name="CLOSE" Description="Close" />
+    </States>
+    <Inputs>
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Inputs>
+    <Outputs>
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Outputs>
+    <LoadVars LoadVarAct="false" ToolDataNr="0" LoadVarNum="2" Ghost="0">
+      <LoadVar LoadbyGhost="false" Name="LoadVar 1" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+      <LoadVar LoadbyGhost="false" Name="LoadVar 2" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+    </LoadVars>
+  </Gripper>
+  <Gripper Number="23" NumIn="2" NumOut="2" NumStates="2" GrpAct="false" Name="Gripper23" GripperIcon="Def_Gripper_23" PulseTimeInS="0.5" TimeOutInMs="3000">
+    <States>
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_1" LoadVarNr="0" Name="OPEN" Description="Open" />
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_2" LoadVarNr="0" Name="CLOSE" Description="Close" />
+    </States>
+    <Inputs>
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Inputs>
+    <Outputs>
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Outputs>
+    <LoadVars LoadVarAct="false" ToolDataNr="0" LoadVarNum="2" Ghost="0">
+      <LoadVar LoadbyGhost="false" Name="LoadVar 1" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+      <LoadVar LoadbyGhost="false" Name="LoadVar 2" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+    </LoadVars>
+  </Gripper>
+  <Gripper Number="24" NumIn="2" NumOut="2" NumStates="2" GrpAct="false" Name="Gripper24" GripperIcon="Def_Gripper_24" PulseTimeInS="0.5" TimeOutInMs="3000">
+    <States>
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_1" LoadVarNr="0" Name="OPEN" Description="Open" />
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_2" LoadVarNr="0" Name="CLOSE" Description="Close" />
+    </States>
+    <Inputs>
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Inputs>
+    <Outputs>
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Outputs>
+    <LoadVars LoadVarAct="false" ToolDataNr="0" LoadVarNum="2" Ghost="0">
+      <LoadVar LoadbyGhost="false" Name="LoadVar 1" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+      <LoadVar LoadbyGhost="false" Name="LoadVar 2" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+    </LoadVars>
+  </Gripper>
+  <Gripper Number="25" NumIn="2" NumOut="2" NumStates="2" GrpAct="false" Name="Gripper25" GripperIcon="Def_Gripper_25" PulseTimeInS="0.5" TimeOutInMs="3000">
+    <States>
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_1" LoadVarNr="0" Name="OPEN" Description="Open" />
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_2" LoadVarNr="0" Name="CLOSE" Description="Close" />
+    </States>
+    <Inputs>
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Inputs>
+    <Outputs>
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Outputs>
+    <LoadVars LoadVarAct="false" ToolDataNr="0" LoadVarNum="2" Ghost="0">
+      <LoadVar LoadbyGhost="false" Name="LoadVar 1" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+      <LoadVar LoadbyGhost="false" Name="LoadVar 2" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+    </LoadVars>
+  </Gripper>
+  <Gripper Number="26" NumIn="2" NumOut="2" NumStates="2" GrpAct="false" Name="Gripper26" GripperIcon="Def_Gripper_26" PulseTimeInS="0.5" TimeOutInMs="3000">
+    <States>
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_1" LoadVarNr="0" Name="OPEN" Description="Open" />
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_2" LoadVarNr="0" Name="CLOSE" Description="Close" />
+    </States>
+    <Inputs>
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Inputs>
+    <Outputs>
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Outputs>
+    <LoadVars LoadVarAct="false" ToolDataNr="0" LoadVarNum="2" Ghost="0">
+      <LoadVar LoadbyGhost="false" Name="LoadVar 1" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+      <LoadVar LoadbyGhost="false" Name="LoadVar 2" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+    </LoadVars>
+  </Gripper>
+  <Gripper Number="27" NumIn="2" NumOut="2" NumStates="2" GrpAct="false" Name="Gripper27" GripperIcon="Def_Gripper_27" PulseTimeInS="0.5" TimeOutInMs="3000">
+    <States>
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_1" LoadVarNr="0" Name="OPEN" Description="Open" />
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_2" LoadVarNr="0" Name="CLOSE" Description="Close" />
+    </States>
+    <Inputs>
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Inputs>
+    <Outputs>
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Outputs>
+    <LoadVars LoadVarAct="false" ToolDataNr="0" LoadVarNum="2" Ghost="0">
+      <LoadVar LoadbyGhost="false" Name="LoadVar 1" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+      <LoadVar LoadbyGhost="false" Name="LoadVar 2" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+    </LoadVars>
+  </Gripper>
+  <Gripper Number="28" NumIn="2" NumOut="2" NumStates="2" GrpAct="false" Name="Gripper28" GripperIcon="Def_Gripper_28" PulseTimeInS="0.5" TimeOutInMs="3000">
+    <States>
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_1" LoadVarNr="0" Name="OPEN" Description="Open" />
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_2" LoadVarNr="0" Name="CLOSE" Description="Close" />
+    </States>
+    <Inputs>
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Inputs>
+    <Outputs>
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Outputs>
+    <LoadVars LoadVarAct="false" ToolDataNr="0" LoadVarNum="2" Ghost="0">
+      <LoadVar LoadbyGhost="false" Name="LoadVar 1" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+      <LoadVar LoadbyGhost="false" Name="LoadVar 2" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+    </LoadVars>
+  </Gripper>
+  <Gripper Number="29" NumIn="2" NumOut="2" NumStates="2" GrpAct="false" Name="Gripper29" GripperIcon="Def_Gripper_29" PulseTimeInS="0.5" TimeOutInMs="3000">
+    <States>
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_1" LoadVarNr="0" Name="OPEN" Description="Open" />
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_2" LoadVarNr="0" Name="CLOSE" Description="Close" />
+    </States>
+    <Inputs>
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Inputs>
+    <Outputs>
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Outputs>
+    <LoadVars LoadVarAct="false" ToolDataNr="0" LoadVarNum="2" Ghost="0">
+      <LoadVar LoadbyGhost="false" Name="LoadVar 1" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+      <LoadVar LoadbyGhost="false" Name="LoadVar 2" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+    </LoadVars>
+  </Gripper>
+  <Gripper Number="30" NumIn="2" NumOut="2" NumStates="2" GrpAct="false" Name="Gripper30" GripperIcon="Def_Gripper_30" PulseTimeInS="0.5" TimeOutInMs="3000">
+    <States>
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_1" LoadVarNr="0" Name="OPEN" Description="Open" />
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_2" LoadVarNr="0" Name="CLOSE" Description="Close" />
+    </States>
+    <Inputs>
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Inputs>
+    <Outputs>
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Outputs>
+    <LoadVars LoadVarAct="false" ToolDataNr="0" LoadVarNum="2" Ghost="0">
+      <LoadVar LoadbyGhost="false" Name="LoadVar 1" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+      <LoadVar LoadbyGhost="false" Name="LoadVar 2" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+    </LoadVars>
+  </Gripper>
+  <Gripper Number="31" NumIn="2" NumOut="2" NumStates="2" GrpAct="false" Name="Gripper31" GripperIcon="Def_Gripper_31" PulseTimeInS="0.5" TimeOutInMs="3000">
+    <States>
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_1" LoadVarNr="0" Name="OPEN" Description="Open" />
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_2" LoadVarNr="0" Name="CLOSE" Description="Close" />
+    </States>
+    <Inputs>
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Inputs>
+    <Outputs>
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Outputs>
+    <LoadVars LoadVarAct="false" ToolDataNr="0" LoadVarNum="2" Ghost="0">
+      <LoadVar LoadbyGhost="false" Name="LoadVar 1" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+      <LoadVar LoadbyGhost="false" Name="LoadVar 2" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+    </LoadVars>
+  </Gripper>
+  <Gripper Number="32" NumIn="2" NumOut="2" NumStates="2" GrpAct="false" Name="Gripper32" GripperIcon="Def_Gripper_32" PulseTimeInS="0.5" TimeOutInMs="3000">
+    <States>
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_1" LoadVarNr="0" Name="OPEN" Description="Open" />
+      <State CondFunction="0" CondState="0" CondInput="0" CriticalKey="false" StateIcon="Def_State_2" LoadVarNr="0" Name="CLOSE" Description="Close" />
+    </States>
+    <Inputs>
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Input Number="1026" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Inputs>
+    <Outputs>
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+      <Output Number="0" Typ="1" ValState1="0" ValState2="0" ValState3="0" ValState4="0" ValState5="0" ValState6="0" ValState7="0" ValState8="0" ValState9="0" ValState10="0" ValState11="0" ValState12="0" ValState13="0" ValState14="0" ValState15="0" ValState16="0" GhostMode="false" />
+    </Outputs>
+    <LoadVars LoadVarAct="false" ToolDataNr="0" LoadVarNum="2" Ghost="0">
+      <LoadVar LoadbyGhost="false" Name="LoadVar 1" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+      <LoadVar LoadbyGhost="false" Name="LoadVar 2" Mass="-1" GravCenterX="0" GravCenterY="0" GravCenterZ="0" GravCenterA="0" GravCenterB="0" GravCenterC="0" MoOfInertiaX="0" MoOfInertiaY="0" MoOfInertiaZ="0" />
+    </LoadVars>
+  </Gripper>
+  <AdvancedSettings GhostMode="false" GhostInput="0" InactLoad="0" ErrorOutput="0" ErrorStrategy1="DialAtT1T2" ErrorStrategy2="DialAtT1T2" ErrorStrategy3="DialAtT1T2" InterruptNumber="18" ActivateViewViaUserKey="true" SignVal="14520776" />
+  <SignalDef>
+    <SignalOuts>
+      <Signal Name="GRP_SigOut_1" Active="false" Description="GRP_SigOut_1 Desc" From="1" To="1" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigOut_2" Active="false" Description="GRP_SigOut_2 Desc" From="1" To="1" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigOut_3" Active="false" Description="GRP_SigOut_3 Desc" From="1" To="1" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigOut_4" Active="false" Description="GRP_SigOut_4 Desc" From="1" To="1" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigOut_5" Active="false" Description="GRP_SigOut_5 Desc" From="1" To="1" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigOut_6" Active="false" Description="GRP_SigOut_6 Desc" From="1" To="1" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigOut_7" Active="false" Description="GRP_SigOut_7 Desc" From="1" To="1" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigOut_8" Active="false" Description="GRP_SigOut_8 Desc" From="1" To="1" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigOut_9" Active="false" Description="GRP_SigOut_9 Desc" From="1" To="1" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigOut_10" Active="false" Description="GRP_SigOut_10 Desc" From="1" To="1" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigOut_11" Active="false" Description="GRP_SigOut_11 Desc" From="1" To="1" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigOut_12" Active="false" Description="GRP_SigOut_12 Desc" From="1" To="1" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigOut_13" Active="false" Description="GRP_SigOut_13 Desc" From="1" To="1" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigOut_14" Active="false" Description="GRP_SigOut_14 Desc" From="1" To="1" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigOut_15" Active="false" Description="GRP_SigOut_15 Desc" From="1" To="1" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigOut_16" Active="false" Description="GRP_SigOut_16 Desc" From="1" To="1" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigOut_17" Active="false" Description="GRP_SigOut_17 Desc" From="1" To="1" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigOut_18" Active="false" Description="GRP_SigOut_18 Desc" From="1" To="1" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigOut_19" Active="false" Description="GRP_SigOut_19 Desc" From="1" To="1" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigOut_20" Active="false" Description="GRP_SigOut_20 Desc" From="1" To="1" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigOut_21" Active="false" Description="GRP_SigOut_21 Desc" From="1" To="1" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigOut_22" Active="false" Description="GRP_SigOut_22 Desc" From="1" To="1" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigOut_23" Active="false" Description="GRP_SigOut_23 Desc" From="1" To="1" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigOut_24" Active="false" Description="GRP_SigOut_24 Desc" From="1" To="1" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigOut_25" Active="false" Description="GRP_SigOut_25 Desc" From="1" To="1" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigOut_26" Active="false" Description="GRP_SigOut_26 Desc" From="1" To="1" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigOut_27" Active="false" Description="GRP_SigOut_27 Desc" From="1" To="1" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigOut_28" Active="false" Description="GRP_SigOut_28 Desc" From="1" To="1" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigOut_29" Active="false" Description="GRP_SigOut_29 Desc" From="1" To="1" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigOut_30" Active="false" Description="GRP_SigOut_30 Desc" From="1" To="1" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigOut_31" Active="false" Description="GRP_SigOut_31 Desc" From="1" To="1" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigOut_32" Active="false" Description="GRP_SigOut_32 Desc" From="1" To="1" BitLength="1" InUse="false" />
+    </SignalOuts>
+    <SignalIns>
+      <Signal Name="GRP_SigIn_1" Active="false" Description="GRP_SigIn_1 Desc" From="1026" To="1026" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigIn_2" Active="false" Description="GRP_SigIn_2 Desc" From="1026" To="1026" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigIn_3" Active="false" Description="GRP_SigIn_3 Desc" From="1026" To="1026" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigIn_4" Active="false" Description="GRP_SigIn_4 Desc" From="1026" To="1026" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigIn_5" Active="false" Description="GRP_SigIn_5 Desc" From="1026" To="1026" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigIn_6" Active="false" Description="GRP_SigIn_6 Desc" From="1026" To="1026" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigIn_7" Active="false" Description="GRP_SigIn_7 Desc" From="1026" To="1026" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigIn_8" Active="false" Description="GRP_SigIn_8 Desc" From="1026" To="1026" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigIn_9" Active="false" Description="GRP_SigIn_9 Desc" From="1026" To="1026" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigIn_10" Active="false" Description="GRP_SigIn_10 Desc" From="1026" To="1026" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigIn_11" Active="false" Description="GRP_SigIn_11 Desc" From="1026" To="1026" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigIn_12" Active="false" Description="GRP_SigIn_12 Desc" From="1026" To="1026" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigIn_13" Active="false" Description="GRP_SigIn_13 Desc" From="1026" To="1026" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigIn_14" Active="false" Description="GRP_SigIn_14 Desc" From="1026" To="1026" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigIn_15" Active="false" Description="GRP_SigIn_15 Desc" From="1026" To="1026" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigIn_16" Active="false" Description="GRP_SigIn_16 Desc" From="1026" To="1026" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigIn_17" Active="false" Description="GRP_SigIn_17 Desc" From="1026" To="1026" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigIn_18" Active="false" Description="GRP_SigIn_18 Desc" From="1026" To="1026" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigIn_19" Active="false" Description="GRP_SigIn_19 Desc" From="1026" To="1026" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigIn_20" Active="false" Description="GRP_SigIn_20 Desc" From="1026" To="1026" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigIn_21" Active="false" Description="GRP_SigIn_21 Desc" From="1026" To="1026" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigIn_22" Active="false" Description="GRP_SigIn_22 Desc" From="1026" To="1026" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigIn_23" Active="false" Description="GRP_SigIn_23 Desc" From="1026" To="1026" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigIn_24" Active="false" Description="GRP_SigIn_24 Desc" From="1026" To="1026" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigIn_25" Active="false" Description="GRP_SigIn_25 Desc" From="1026" To="1026" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigIn_26" Active="false" Description="GRP_SigIn_26 Desc" From="1026" To="1026" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigIn_27" Active="false" Description="GRP_SigIn_27 Desc" From="1026" To="1026" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigIn_28" Active="false" Description="GRP_SigIn_28 Desc" From="1026" To="1026" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigIn_29" Active="false" Description="GRP_SigIn_29 Desc" From="1026" To="1026" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigIn_30" Active="false" Description="GRP_SigIn_30 Desc" From="1026" To="1026" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigIn_31" Active="false" Description="GRP_SigIn_31 Desc" From="1026" To="1026" BitLength="1" InUse="false" />
+      <Signal Name="GRP_SigIn_32" Active="false" Description="GRP_SigIn_32 Desc" From="1026" To="1026" BitLength="1" InUse="false" />
+    </SignalIns>
+  </SignalDef>
+</Configuration>
