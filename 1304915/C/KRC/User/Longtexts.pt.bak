@@ -5533,18 +5533,18 @@ $IN[4093];
 $IN[4094];
 $IN[4095];
 $IN[4096];
-$OUT[1];
-$OUT[2];
-$OUT[3];
-$OUT[4];
+$OUT[1];Abrir Garra 01
+$OUT[2];Fechar Garra 01
+$OUT[3];Abrir Garra 02
+$OUT[4];Fechar Garra 02
 $OUT[5];
 $OUT[6];
 $OUT[7];
 $OUT[8];
-$OUT[9];
-$OUT[10];
-$OUT[11];
-$OUT[12];
+$OUT[9];REC OP40
+$OUT[10];AVA OP40
+$OUT[11];REC OP50
+$OUT[12];AVA OP50
 $OUT[13];
 $OUT[14];
 $OUT[15];

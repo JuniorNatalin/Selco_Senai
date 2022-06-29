@@ -1,4 +1,5 @@
-&ACCESS  RVP
+&ACCESS RVP
+&REL 2
 &COMMENT HANDLER on external automatic
 DEF  CELL ( )
   ;EXT EXAMPLE1 ( )
@@ -38,7 +39,6 @@ DEF  CELL ( )
 
     CASE 1
       P00 (#EXT_PGNO,#PGNO_ACKN,DMY[],0 ) ; Reset Progr.No.-Request
-      ;EXAMPLE1 ( ) ; Call User-Program
 
     CASE 2
       P00 (#EXT_PGNO,#PGNO_ACKN,DMY[],0 ) ; Reset Progr.No.-Request

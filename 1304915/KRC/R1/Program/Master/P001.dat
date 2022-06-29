@@ -1,0 +1,36 @@
+&ACCESS RVP
+&PARAM EDITMASK = *
+&PARAM TEMPLATE = C:\KRC\Roboter\Template\ExpertVorgabe
+DEFDAT P001 PUBLIC
+
+
+
+;=================================
+  WHILE (NOT Fim_De_Trabalho)
+   LOOP
+ 
+     IF (Liberacao_OP10) THEN
+      Retira_Master_OP10()
+     ENDIF
+
+IF (Liberacao_OP70) THEN
+      Deposita_Master_OP60()
+     ENDIF
+
+IF (Liberacao_OP70) THEN
+      Retira_Master_OP60()
+     ENDIF
+
+
+;=================================
+ENDLOOP
+
+ENDWHILE
+
+
+
+
+
+
+
+ENDDAT

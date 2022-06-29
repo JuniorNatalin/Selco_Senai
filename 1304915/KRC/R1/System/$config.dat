@@ -845,14 +845,14 @@ SIGNAL Reserva_DI_PLC_04 $IN[119]
 SIGNAL Reserva_DI_PLC_05 $IN[120]
 SIGNAL Reserva_DI_PLC_06 $IN[121]
 SIGNAL Reserva_DI_PLC_07 $IN[122]
-SIGNAL Reserva_DI_PLC_08 $IN[123]
-SIGNAL Reserva_DI_PLC_09 $IN[124]
-SIGNAL Liberacao_OP10 $IN[125]
-SIGNAL Liberacao_OP20 $IN[126]
-SIGNAL Liberacao_OP30 $IN[127]
-SIGNAL Liberacao_OP40 $IN[128]
-SIGNAL Liberacao_OP50 $IN[129]
-SIGNAL Liberacao_OP60 $IN[130]
+SIGNAL Liberacao_OP10  $IN[123]
+SIGNAL Liberacao_OP20  $IN[124]
+SIGNAL Liberacao_OP30 $IN[125]
+SIGNAL Liberacao_OP40 $IN[126]
+SIGNAL Liberacao_OP50 $IN[127]
+SIGNAL Liberacao_OP60 $IN[128]
+SIGNAL Liberacao_OP70 $IN[129]
+SIGNAL Liberacao_OP80 $IN[130]
 
 
 
@@ -883,24 +883,19 @@ SIGNAL ROBO_EM_AUTO $OUT[115];EXT
 SIGNAL Pos_de_Manutencao $OUT[116]; Em Posi�ao de Manuten�ao
 SIGNAL Posicao_HOME $OUT[117]; Home Pos
 SIGNAL Lib_Abertura_Porta $OUT[118]; Libera entrada na celula
-SIGNAL Reserva_DO_PLC_01 $OUT[119]
-SIGNAL Reserva_DO_PLC_02 $OUT[120]
-SIGNAL Reserva_DO_PLC_03 $OUT[121]
-SIGNAL Reserva_DO_PLC_04 $OUT[122]
-SIGNAL Reserva_DO_PLC_04 $OUT[122]
-SIGNAL Reserva_DO_PLC_05 $OUT[123]
-
-
-SIGNAL Fim_de_Trabalho $OUT[124]
-SIGNAL Perfil_livre_OP10 $OUT[125]
-SIGNAL Perfil_livre_OP20 $OUT[126]
-SIGNAL Perfil_livre_OP30 $OUT[127]
-SIGNAL Perfil_livre_OP40 $OUT[128]
-SIGNAL Perfil_livre_OP50 $OUT[129]
-SIGNAL Perfil_livre_OP60 $OUT[130]
-SIGNAL Perfil_livre_OP70 $OUT[131]
-
-
+SIGNAL Fim_de_Trabalho $OUT[119]
+SIGNAL Reserva_DO_PLC_01 $OUT[120]
+SIGNAL Reserva_DO_PLC_02 $OUT[121]
+SIGNAL Reserva_DO_PLC_03 $OUT[122]
+SIGNAL Perfil_livre_OP10 $OUT[123]
+SIGNAL Perfil_livre_OP20 $OUT[124]
+SIGNAL Perfil_livre_OP30 $OUT[125]
+SIGNAL Perfil_livre_OP40 $OUT[126]
+SIGNAL Perfil_livre_OP50 $OUT[127]
+SIGNAL Perfil_livre_OP60 $OUT[128]
+SIGNAL Perfil_livre_OP70 $OUT[129]
+SIGNAL Perfil_livre_OP80 $OUT[130]
+SIGNAL Reserva_DO_PLC_04 $OUT[131]
 
 
 

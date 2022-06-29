@@ -1,0 +1,33 @@
+&ACCESS RVP
+&REL 15
+&PARAM EDITMASK = *
+&PARAM TEMPLATE = C:\KRC\Roboter\Template\vorgabe
+&PARAM DISKPATH = KRC:\R1\Program
+DEF Posis( )
+;FOLD INI;%{PE}
+  ;FOLD BASISTECH INI
+    GLOBAL INTERRUPT DECL 3 WHEN $STOPMESS==TRUE DO IR_STOPM ( )
+    INTERRUPT ON 3 
+    BAS (#INITMOV,0 )
+  ;ENDFOLD (BASISTECH INI)
+  ;FOLD USER INI
+    ;Make your modifications here
+
+  ;ENDFOLD (USER INI)
+;ENDFOLD (INI)
+
+
+
+;FOLD Gripper SET [1]Gripper1 State=[1]OPEN Wait 1[s] Check with Strategy 1 ;%{PE}
+;FOLD Parameters Parameters ;%{h}
+;Params IlfProvider=GripperTech.GripperSet;setgripper=1;setstate=1;setcont=nocont;waittime=1;errorstrategy=1
+;ENDFOLD
+GRPg_SetStateAndCheck(1, 1, 1, 1)
+;ENDFOLD
+;FOLD Gripper SET [2]Gripper2 State=[1]OPEN Wait 1[s] Check with Strategy 1 ;%{PE}
+;FOLD Parameters Parameters ;%{h}
+;Params IlfProvider=GripperTech.GripperSet;setgripper=2;setstate=1;setcont=nocont;waittime=1;errorstrategy=1
+;ENDFOLD
+GRPg_SetStateAndCheck(2, 1, 1, 1)
+;ENDFOLD
+END
